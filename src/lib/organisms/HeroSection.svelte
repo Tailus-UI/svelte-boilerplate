@@ -13,11 +13,9 @@ import Container from "../layout/Container.svelte";
           class="h-64 w-64 rounded-full bg-purple-500 opacity-75 blur-[160px] transition duration-300 dark:opacity-20"
         ></div>
       </div>
-      <div
-        class="relative mx-auto mb-16 px-6 pt-40 md:max-w-2xl lg:max-w-5xl lg:px-12"
-      >
+      <div class="mb-16 pt-40">
         <Container>
-            <div class="text-center">
+            <div class="mx-auto text-center lg:w-4/5">
                 <h1
                     class="text-4xl font-bold text-dark dark:text-white md:text-5xl lg:text-6xl"
                 >
