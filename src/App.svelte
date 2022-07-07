@@ -1,19 +1,12 @@
 <script>
   import "./lib/app.css";
-  import ButtonLink from "./lib/atoms/ButtonLink.svelte";
-  import Logo from "./lib/atoms/Logo.svelte";
-  import MediumEmpathyButton from "./lib/atoms/MediumEmpathyButton.svelte";
-  import ThemeSwitcher from "./lib/atoms/ThemeSwitcher.svelte";
+  import AppHeader from "./lib/organisms/AppHeader.svelte";
+import HeroSection from "./lib/organisms/HeroSection.svelte";
 </script>
 
+<AppHeader></AppHeader>
+<HeroSection/>
+
 <main>
-  <h1>Hello world!</h1>
-  <Logo />
-  <ThemeSwitcher />
-  <ButtonLink link='tailus.io'>
-    Browse blocks hello
-  </ButtonLink>
-  <MediumEmpathyButton type='submit'>
-      Get a custom UI
-  </MediumEmpathyButton>
+
 </main>
