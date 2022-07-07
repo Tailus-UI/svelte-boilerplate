@@ -178,7 +178,7 @@ import Container from "../layout/Container.svelte";
                 </svg>
             </div>
             <div class="flex flex-wrap justify-center gap-y-4 gap-x-9">
-                <ButtonLink link='https://tailus.io/blocks'>
+                <ButtonLink size="lg" link='https://tailus.io/blocks'>
                     Get free blocks
                 </ButtonLink>
                 <MediumEmpathyButtonLink link='https://tailus.io/contact'>

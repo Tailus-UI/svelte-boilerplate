@@ -13,7 +13,7 @@
             <div class="flex justify-between">
                 <Logo />
                 <div class="flex gap-4">
-                    <ButtonLink  link='https://tailus.io/blocks'>
+                    <ButtonLink  size="md" link='https://tailus.io/blocks'>
                         Browse blocks
                     </ButtonLink>
                     <ThemeSwitcher />
