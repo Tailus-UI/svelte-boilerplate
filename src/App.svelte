@@ -1,14 +1,17 @@
 <script>
   import "./lib/app.css";
-import Block from "./lib/atoms/Block.svelte";
+import AppFooter from "./lib/organisms/AppFooter.svelte";
   import AppHeader from "./lib/organisms/AppHeader.svelte";
-import HeroSection from "./lib/organisms/HeroSection.svelte";
-import ServicesSection from "./lib/organisms/ServicesSection.svelte";
+  import HeroSection from "./lib/organisms/HeroSection.svelte";
+  import ServicesSection from "./lib/organisms/ServicesSection.svelte";
+import Testmonials from "./lib/organisms/Testmonials.svelte";
 </script>
 
-<AppHeader></AppHeader>
+<AppHeader />
 <HeroSection/>
 <ServicesSection />
+<Testmonials />
+<AppFooter />
 <main>
 
 </main>
