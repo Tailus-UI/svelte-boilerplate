@@ -1,0 +1,8 @@
+**/*.mdx
+**/*.js
+**/*.json
+**/*.css
+**/generated/
+src/samples/
+**/snippet.*
+/dist

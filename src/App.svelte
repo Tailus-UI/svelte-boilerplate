@@ -8,10 +8,8 @@
 </script>
 
 <AppHeader />
-<HeroSection/>
+<HeroSection />
 <ServicesSection />
 <Testmonials />
 <AppFooter />
-<main>
-
-</main>
+<main />
