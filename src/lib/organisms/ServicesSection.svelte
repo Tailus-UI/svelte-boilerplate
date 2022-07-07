@@ -64,6 +64,7 @@ import Service from "../molecules/Service.svelte";
         </Service>
         <Service title="Free Boilerplates">
             <a
+                aria-label="html-vite"
                 href="https://github.com/Tailus-UI/tailwind-vite-boilerplate"
                 class="snap-center flex items-center rounded-xl py-6 border border-gray-100 bg-white text-center dark:border-gray-700 dark:border-opacity-70 dark:bg-dark"
               >
@@ -77,11 +78,12 @@ import Service from "../molecules/Service.svelte";
                     d="M0 0.48938L2.889 32.8894L15.8535 36.4894L28.8517 32.8849L31.7453 0.48938H0.00225011H0ZM25.4565 11.0869H10.251L10.6132 15.1571H25.0965L24.0052 27.3566L15.8535 29.6156L7.713 27.3566L7.15725 21.1151H11.1465L11.43 24.2876L15.8558 25.4801L15.8647 25.4779L20.2927 24.2831L20.7517 19.1306H6.9795L5.9085 7.11338H25.8142L25.4587 11.0869H25.4565Z"
                   />
                 </svg>
-              </a>
-              <a
+            </a>
+            <a
+                aria-label="react"
                 href="https://github.com/Tailus-UI/tailwind-react-boilerplate"
                 class="snap-center rounded-xl flex items-center py-6 border border-gray-100 bg-white text-center dark:border-gray-700 dark:border-opacity-70 dark:bg-dark"
-              >
+            >
                 <svg
                   class="w-16 mx-auto fill-gray-300 dark:fill-gray-600"
                   viewBox="0 0 42 37"
@@ -95,8 +97,9 @@ import Service from "../molecules/Service.svelte";
                     d="M20.9492 22.2599C21.9481 22.2599 22.9061 21.8631 23.6124 21.1567C24.3187 20.4504 24.7155 19.4925 24.7155 18.4936C24.7155 17.4947 24.3187 16.5368 23.6124 15.8305C22.9061 15.1242 21.9481 14.7274 20.9492 14.7274C19.9504 14.7274 18.9924 15.1242 18.2861 15.8305C17.5798 16.5368 17.183 17.4947 17.183 18.4936C17.183 19.4925 17.5798 20.4504 18.2861 21.1567C18.9924 21.8631 19.9504 22.2599 20.9492 22.2599Z"
                   />
                 </svg>
-              </a>
-              <a
+            </a>
+            <a
+                aria-label="vue"
                 href="https://github.com/Tailus-UI/tailwind-vue-boilerplate"
                 class="snap-center rounded-xl flex items-center py-6 border border-gray-100 bg-white text-center dark:border-gray-700 dark:border-opacity-70 dark:bg-dark"
               >
@@ -110,8 +113,9 @@ import Service from "../molecules/Service.svelte";
                     d="M32.937 0.48938H25.8844L20.7415 8.88938L16.3341 0.48938H0.170105L20.7415 36.4894L41.313 0.48938H32.937ZM5.31296 3.48938H10.3084L20.7415 22.0894L31.1747 3.48938H36.1701L20.7415 30.4894L5.31296 3.48938Z"
                   />
                 </svg>
-              </a>
+            </a>
               <a
+                aria-label="svelte"
                 href="https://github.com/Tailus-UI/tailwind-svelte-boilerplate"
                 class="snap-center rounded-xl border border-gray-100 bg-white py-10 px-10 text-center dark:border-gray-700 dark:border-opacity-70 dark:bg-dark"
               >

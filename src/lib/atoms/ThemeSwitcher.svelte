@@ -34,6 +34,7 @@
     class="group flex flex-col rounded-full border border-gray-100 bg-gray-50 transition duration-300 hover:h-[7.6rem] dark:border-gray-700 dark:bg-gray-800"
     >
     <button
+        aria-label="light"
         on:click={switcher}
         class="switcher tansition group order-2 -mt-10 flex h-10 w-10 rounded-full opacity-0 duration-300 hover:bg-gray-100 group-hover:mt-0 group-hover:opacity-100 dark:order-1 dark:mt-0 dark:opacity-100 dark:hover:bg-gray-700"
     >
@@ -51,6 +52,7 @@
         </svg>
     </button>
     <button
+        aria-label="dark"
         on:click={switcher}
         class="switcher darka:opacity-0 tansition group order-1 flex h-10 w-10 rounded-full opacity-100 duration-300 hover:bg-gray-100 dark:order-2 dark:-mt-10 dark:opacity-0 dark:hover:bg-gray-700 dark:group-hover:mt-0 dark:group-hover:opacity-100"
     >
@@ -66,7 +68,7 @@
         </svg>
     </button>
     <button
-        id="system"
+        aria-label="system"
         class="tansition group order-last -mt-10 flex h-10 w-10 rounded-full opacity-0 duration-300 hover:bg-gray-100 group-hover:mt-0 group-hover:opacity-100 dark:hover:bg-gray-700"
     >
         <svg
