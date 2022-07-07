@@ -7,7 +7,7 @@
     class="snap-center rounded-xl border border-gray-100 bg-white pb-2 text-center dark:border-gray-700 dark:border-opacity-70 dark:bg-dark"
 >
     <img
-        src="src/assets/images/skeletons/{cover}.svg"
+        src="./images/skeletons/{cover}.svg"
         class="w-36"
         alt={title}
         loading="lazy"

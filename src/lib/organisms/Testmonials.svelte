@@ -15,7 +15,7 @@
         class="order-last w-full text-center sm:order-first sm:w-2/5 lg:w-2/5"
       >
         <img
-          src="src/assets/images/khatab wedaa.webp"
+          src="./images/khatab wedaa.webp"
           alt="khatab wedaa"
           loading="lazy"
           width="412"
